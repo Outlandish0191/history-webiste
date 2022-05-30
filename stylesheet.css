@@ -14,6 +14,8 @@ a.link{
     background-color: #4CAF50;  /*Green */
     color: white;
     padding: 5px;
+    border-radius: 5px;
+    border: 20px;
     text-align: center;
     font-size: 16px;
 }
@@ -34,4 +36,14 @@ h1.center{
 
 p.footer{
     font-size: small;
+}
+
+h3.position{
+    text-align: left;
+    padding-left: 75%;
+}
+
+p.position{
+    text-align: left;
+    padding-left: 75%
 }

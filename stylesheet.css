@@ -1,6 +1,110 @@
+@font-face {
+    font-family: 'ITC Machine Std';
+    src: url('/fonts/machineStd/MachineStd.woff2') format('woff2'),
+        url('/fonts/machineStd/MachineStd.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* I wrote this too. I didnt cut any corners here. Why are you looking in the stylesheet anyway?
+
+
+
+
+
+
+
+please tell me its not the font */
+
+
+@font-face {
+    font-family: 'Comic Sans MS';
+    src: url('/fonts/comicsans/ComicSansMS-Bold.woff2') format('woff2'),
+        /* url('fonts/comicsans/ComicSansMS-BoldItalic.woff2') format('woff2'),
+        url('fonts/comicsans/ComicSansMS-Italic.woff2') format('woff2'), */
+        url('fonts/comicsans/ComicSansMS.woff2') format('woff2'),
+
+        url('fonts/comicsans/ComicSansMS-Bold.woff') format('woff'),
+        /* url('fonts/comicsans/ComicSansMS-BoldItalic.woff') format('woff'),
+        url('fonts/comicsans/ComicSansMS-Italic.woff') format('woff'), */
+        url('fonts/comicsans/ComicSansMS.woff') format('woff');
+}
+
+@font-face {
+    font-family: "CustomFont";
+    src: url("https://yoursite.com/css/fonts/CustomFont.eot");
+    src: url("https://yoursite.com/css/fonts/CustomFont.woff") format("woff"),
+    url("https://yoursite.com/css/fonts/CustomFont.otf") format("opentype"),
+    url("https://yoursite.com/css/fonts/CustomFont.svg#filename") format("svg");
+    }
+
+/* @font-face {
+    font-family: 'Comic Sans MS Bold';
+    src: url('fonts/comicsans/ComicSansMS-Bold.woff2') format('woff2'), 
+        url('fonts/comicsans/ComicSansMS-Bold.woff') format('woff')
+} */
+
 h1 {
     font-size: 24px;
+    font-family: 'Comic Sans MS', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
 }
+
+h1.center{
+    font-size: 36px;
+    font-family: 'Comic Sans MS', Arial, sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: center;
+}
+
+
+h2 {
+    font-family: 'Comic Sans MS', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    
+}
+h2.paraheader{
+    text-align: center;
+}
+
+
+
+h3.position{
+    text-align: center;
+}
+
+
+p.body{
+    font-family: 'Comic Sans MS', Arial, sans-serif;
+    font-weight: lighter;
+    font-style:normal;
+}
+
+p.position{
+    text-align: center;
+}
+
+p.footer{
+    font-size: small;
+}
+
+p.citation{
+    font-size: small;
+}
+
+p.footer{
+    font-size: small;
+}
+
+p.body-center{
+    text-align:center;
+}
+
+
 
 span.links{
     padding-left: 10px;
@@ -9,41 +113,16 @@ span.links{
 span.seperator{
     padding: 100%
 }
+
+
 a.link{
     /* button */
     background-color: #4CAF50;  /*Green */
-    color: white;
+    color: rgb(255,255,255);
     padding: 5px;
     border-radius: 5px;
     border: 20px;
     text-align: center;
-    font-size: 16px;
-}
-
-
-h2.paraheader{
-    text-align: center;
-
-}
-
-p.body-center{
-    text-align:center;
-}
-
-h1.center{
-    text-align: center;
-}
-
-p.footer{
-    font-size: small;
-}
-
-h3.position{
-    text-align: left;
-    padding-left: 75%;
-}
-
-p.position{
-    text-align: left;
-    padding-left: 75%
+    font-size: 25px;
+    font-family: 'ITC Machine Std', sans-serif;
 }

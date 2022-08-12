@@ -32,6 +32,19 @@ please tell me its not the font */
 }
 
 @font-face {
+    font-family: 'Times New Roman';
+    src: url('fonts/timesnewroman/Times-BoldItalic.woff2') format('woff2'),
+        /* url('fonts/timesnewroman/TimesNewRomanPS-ItalicMT.woff2') format('woff2'),
+        url('fonts/timesnewroman/TimesNRCyrMT-Bold.woff2') format('woff2'), */
+        url('/fonts/timesnewroman/TimesNRCyrMT.woff2') format('woff2'),
+
+         url('fonts/timesnewroman/Times-BoldItalic.woff') format('woff'),
+        url('fonts/timesnewroman/TimesNewRomanPS-ItalicMT.woff') format('woff'),
+        url('fonts/timesnewroman/TimesNRCyrMT-Bold.woff') format('woff'), 
+        url('/fonts/timesnewroman/TimesNRCyrMT.woff') format('woff'); 
+}
+
+@font-face {
     font-family: "CustomFont";
     src: url("https://yoursite.com/css/fonts/CustomFont.eot");
     src: url("https://yoursite.com/css/fonts/CustomFont.woff") format("woff"),
@@ -67,21 +80,32 @@ h2 {
     font-style: normal;
     
 }
+
 h2.paraheader{
     text-align: center;
 }
 
 
 
+h3 {
+    font-family: 'Comic Sans MS', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
 h3.position{
     text-align: center;
+    font-family: 'Comic Sans MS', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
 }
+
 
 
 p.body{
     font-family: 'Comic Sans MS', Arial, sans-serif;
     font-weight: lighter;
-    font-style:normal;
+    font-style: normal;
 }
 
 p.position{
@@ -94,6 +118,9 @@ p.footer{
 
 p.citation{
     font-size: small;
+    font-family: 'Times New Roman', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
 }
 
 p.footer{
@@ -110,11 +137,18 @@ span.links{
     padding-left: 10px;
     padding-right: 10px;
 }
+
 span.seperator{
     padding: 100%
 }
 
 
+a {
+    font-size: small;
+    font-family: 'Times New Roman', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
 a.link{
     /* button */
     background-color: #4CAF50;  /*Green */
